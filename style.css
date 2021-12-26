@@ -1,0 +1,70 @@
+:root {
+    --heading-font: font-family: 'Montserrat', sans-serif;
+    font-family: 'Vujahday Script', cursive;
+    --heading-bccolor: #25919C
+}
+textarea {
+    width:40%;
+    height: 10vh;
+    display: block;
+    margin: 5rem;
+    padding: 2rem;
+    margin-left: auto;
+     margin-right: auto;
+    border-radius:1rem;
+    border-color:var(--heading-bccolor);
+        }
+.itext{
+    text-align:auto;
+}
+.btn{
+    display: grid;
+    margin:auto;
+    width:100px;
+    height:auto;
+    background-color:#76D7C4 
+}
+/* #output {
+    border: 1px solid black;
+    height: 10vh;
+    width: 80%;
+    margin: 1rem;
+    padding: 1rem;
+    margin: auto;
+} */
+.Heading {
+    text-align: center;
+    padding-top: 0.5rem;
+    margin-top:-10px;
+    font: var(--heading-font);
+    font-size: xx-large;
+    color: var(--heading-bccolor);
+}
+
+/* .Heading-div {
+    background-color: var(--heading-bccolor)
+} */
+.footer{
+        text-align: center;
+    clear: both;
+    position: relative;
+    height:auto;
+    margin-top:auto;
+    color: var(--heading-bccolor);
+}
+.footer .link{
+   color: var(--heading-bccolor);
+}
+
+footer .footer-header{
+    padding-inline-start:0px;
+}
+.nobullets{
+    list-style: none;
+    padding-inline-start: 0px;
+}
+.Inline{
+    display: inline;
+    padding:0rem 0.5rem;
+   
+}
